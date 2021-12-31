@@ -52,3 +52,17 @@ footer {
 		box-shadow: 0px 2px 20px -6px rgba(84, 84, 84, 0.67) inset;
 	}
 }
+.container{
+	&-title{
+		font-size: 36px;
+		line-height: 28px;
+		padding-bottom: 27px;
+		span{
+			color: $blue;
+		}
+	}
+	&-text{
+		max-width: 675px;
+		margin: 0 auto;
+	}
+}

@@ -70,6 +70,19 @@ footer {
           box-shadow: 0px 2px 20px -6px rgba(84, 84, 84, 0.67) inset;
 }
 
+.container-title {
+  font-size: 36px;
+  line-height: 28px;
+  padding-bottom: 27px;
+}
+.container-title span {
+  color: #0674ec;
+}
+.container-text {
+  max-width: 675px;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot?uu3m12");
@@ -94,6 +107,10 @@ footer {
 
 .icon-search:before {
   content: "\f002";
+}
+
+.icon-comment-o:before {
+  content: "\f0e5";
 }
 
 .icon-angle-down:before {
@@ -324,6 +341,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .advantages__item {
@@ -352,18 +372,7 @@ footer {
 
 .choice {
   text-align: center;
-}
-.choice-title {
-  font-size: 36px;
-  line-height: 28px;
-  padding-bottom: 27px;
-}
-.choice-title span {
-  color: #0674ec;
-}
-.choice-text {
-  max-width: 675px;
-  margin: 0 auto;
+  padding-bottom: 118px;
 }
 
 .choice__inner {
@@ -393,4 +402,146 @@ footer {
 }
 .choice__inner .choice__item-text {
   padding: 0px 5px 30px;
+}
+
+.sell__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sell__inner .sell__item-sell {
+  background-color: #0674ec;
+  width: 50%;
+  text-align: center;
+}
+.sell__inner .sell__item-buy {
+  background-color: #7347c1;
+  width: 50%;
+  text-align: center;
+}
+
+.item-sell {
+  padding: 100px 190px;
+  color: #fff;
+}
+.item-sell-title {
+  font-size: 36px;
+  line-height: 7.2px;
+  padding-top: 48px;
+  padding-bottom: 35px;
+}
+.item-sell .btn {
+  max-width: 190px;
+  margin-top: 45px;
+  height: 55px;
+  background-color: #fff;
+  color: #0674ec;
+  border: 1px solid #fff;
+}
+
+.feedback {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.feedback__inner {
+  padding-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.feedback__inner .feedback__item + .feedback__item {
+  margin-left: 28px;
+}
+
+.feedback__item {
+  width: 100%;
+  max-width: 555px;
+  padding: 50px 40px 50px 40px;
+  -webkit-box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  border-left: 2px solid #0674ec;
+  position: relative;
+}
+
+.feedback__clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feedback__clients-img {
+  width: 80px;
+  height: 80px;
+  background-color: #808080;
+  border-radius: 50%;
+}
+.feedback__clients-name {
+  font-size: 20px;
+}
+.feedback__clients-product {
+  color: #555555;
+}
+.feedback__clients-info {
+  text-align: start;
+  padding-left: 20px;
+}
+
+.feedback__item-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feedback__item-text {
+  text-align: start;
+  padding-top: 20px;
+  color: #555555;
+}
+
+.icon-comment-o:before {
+  font-size: 60px;
+  color: #e8e8e8;
+}
+
+.feedback__btn {
+  padding-top: 60px;
+}
+
+.bonus__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bonus__inner-item {
+  width: 50%;
+  text-align: center;
+}
+
+.bonus-left {
+  padding: 58px 0;
+}
+.bonus-left-text {
+  padding-top: 10px;
+}
+.bonus-left-text span {
+  color: #0674ec;
+}
+
+.bonus-right {
+  padding: 58px 0;
+  border-left: 1px solid #e8eaf3;
+}
+.bonus-right-text {
+  padding-top: 10px;
+}
+.bonus-right-text span {
+  color: #7347c1;
 }
