@@ -25,8 +25,47 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cart:before {
+  content: "\e900";
+}
+.icon-enter:before {
+  content: "\ea13";
+}
 .icon-search:before {
   content: "\f002";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-cog:before {
+  content: "\f013";
+}
+.icon-gear:before {
+  content: "\f013";
+}
+.icon-trash-o:before {
+  content: "\f014";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-bar-chart:before {
+  content: "\f080";
+}
+.icon-bar-chart-o:before {
+  content: "\f080";
+}
+.icon-heart-o:before {
+  content: "\f08a";
+}
+.icon-upload:before {
+  content: "\f093";
 }
 .icon-twitter:before {
   content: "\f099";
@@ -37,6 +76,9 @@
 .icon-facebook-f:before {
   content: "\f09a";
 }
+.icon-bell-o:before {
+  content: "\f0a2";
+}
 .icon-pinterest:before {
   content: "\f0d2";
 }
@@ -46,12 +88,36 @@
 .icon-comment-o:before {
   content: "\f0e5";
 }
+.icon-suitcase:before {
+  content: "\f0f2";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
 .icon-angle-down:before {
   content: "\f107";
+}
+.icon-mail-reply-all:before {
+  content: "\f122";
+}
+.icon-reply-all:before {
+  content: "\f122";
 }
 .icon-dribbble:before {
   content: "\f17d";
 }
 .icon-google:before {
   content: "\f1a0";
+}
+.icon-calculator:before {
+  content: "\f1ec";
+}
+.icon-user-o:before {
+  content: "\f2c0";
 }
