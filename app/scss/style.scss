@@ -2473,5 +2473,105 @@
 .work__middle{
 	background-color: #eff1f5;
 }
+//Plan
+.plan{
+	background-color: #eff1f5;
+	padding: 120px 0;
+	&__title{
+		font-size: 36px;
+		text-align: center;
+		padding-bottom: 30px;
+		span{
+			color: $blue;
+		}
+	}
+	&__text{
+		margin: 0 auto;
+		width: 680px;
+		text-align: center
+	}
+}
+.plan__inner{
+	display: flex;
+	justify-content: space-between;
+	.plan__item{
+		box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+		width: 360px;
+		padding: 28px 30px 40px 30px;
+		border-top: 3px solid #ff6a6c;
+		margin-top: 55px;
+		background-color: #fff;
+		&-name{
+			text-align: center;
+			font-size: 24px;
+			font-weight: 500;
+			padding-bottom: 24px;
+			border-bottom: 1px solid #e8ebf0;
+		}
+		&-price{
+			text-align: center;
+			font-size: 36px;
+			padding-top: 30px;
+			padding-bottom: 45px;
+			span{
+				font-size: 16px;
+				color:#555555;
+			}
+		}
+		.plan-info{
+			color: #555555;
+			margin-bottom: 30px;
+			li{
+				padding-left: 22px;
+				position: relative;
+				&::before{
+					position: absolute;
+					content: '';
+					width: 7px;
+					height: 7px;
+					border-radius: 50%;
+					background-color: #c5cad4;
+					left: 0;
+					top: 50%;
+					transform: translate(0,-50%);
+				}
+			}
+			span{
+				color: #000;
+				font-weight: 500;
+			}
+		}
+		&-btn{
+			button{
+				width: 100%;
+				height: 50px;
+				background-color: #ff6a6c;
+				border: none;
+				outline: none;
+				cursor: pointer;
+				font-size: 18px;
+				font-weight: 500;
+				color: #fff;
+			}
+		}
+	}
+	.plan__item.business{
+		border-color:$blue;
+	}
+	.plan__item-btn.business{
+		button{
+			background-color: $blue;
+		}
+	}
+	.plan__item.agency{
+		border-color: #feb71d
+	}
+	.plan__item-btn.agency{
+		button{
+			background-color: #feb71d;
+		}
+	}
+}
+
 
 @import 'media';
