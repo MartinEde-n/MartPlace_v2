@@ -35,6 +35,9 @@ body {
 	line-height: 30px;
 	font-weight: 400;
 }
+.wrapper{
+
+}
 
 footer {
 	margin-top: auto;
@@ -101,10 +104,11 @@ footer {
 			&+li{
 				padding-left: 20px;
 				&::before{
-					content: '-';
+					content: '/';
 					position: absolute;
 					left: 8px;
-					color: #e8ebf0;
+					color: #fff;
+			
 				}
 			}
 		}
