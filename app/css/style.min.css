@@ -134,8 +134,20 @@ footer {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-inbox:before {
+  content: "\e901";
+}
+
 .icon-cart:before {
   content: "\e900";
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+
+.icon-phone-hang-up:before {
+  content: "\e943";
 }
 
 .icon-enter:before {
@@ -180,6 +192,10 @@ footer {
 
 .icon-book:before {
   content: "\f02d";
+}
+
+.icon-map-marker:before {
+  content: "\f041";
 }
 
 .icon-bar-chart:before {
@@ -2623,6 +2639,181 @@ footer {
 }
 .plan__inner .plan__item-btn.agency button {
   background-color: #feb71d;
+}
+
+.terms {
+  background-color: #eff1f5;
+  padding: 58px 118px;
+}
+
+.terms__inner {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+          box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  padding-bottom: 95px;
+}
+.terms__inner .terms__item {
+  margin-bottom: 20px;
+}
+.terms__inner .terms__item-title {
+  font-size: 24px;
+  padding: 40px 30px 25px;
+  border-bottom: 1px solid #e8ebf0;
+  margin-bottom: 30px;
+}
+.terms__inner .terms__item-text {
+  color: #555555;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.error {
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+.error__inner {
+  text-align: center;
+  margin: 0 auto;
+}
+.error .error__img {
+  margin-bottom: 45px;
+}
+.error .error__title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.error .error__btn .btn {
+  max-width: 190px;
+  font-weight: 500;
+}
+
+.contact {
+  background-color: #eff1f5;
+  padding-top: 120px;
+  padding-bottom: 117px;
+}
+.contact__title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.contact__title span a {
+  color: #0674ec;
+}
+.contact__text {
+  width: 678px;
+  color: #555555;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 57px;
+}
+
+.contact__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact__inner .contact__item {
+  background-color: #fff;
+  width: 360px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+          box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  padding: 50px 63px;
+  border-radius: 4px;
+}
+.contact__inner .contact__item-img {
+  position: relative;
+  margin-bottom: 85px;
+}
+.contact__inner .contact__item-img::before {
+  position: absolute;
+  content: "\f041";
+  font-family: "icomoon" !important;
+  font-size: 53px;
+  color: #0674ec;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.contact__inner .contact__item-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contact__inner .contact__item-adress {
+  text-align: center;
+  color: #555555;
+}
+.contact__inner .contact__item-numb a {
+  color: #555555;
+}
+.contact__inner .contact__item-phone .contact__item-img::before {
+  content: "\e942";
+}
+.contact__inner .contact__item-adress a {
+  color: #555555;
+}
+.contact__inner .contact__item-adress .contact__item-img::before {
+  content: "\e901";
+}
+
+.contact__form {
+  padding: 60px 0;
+  background-color: #fff;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+          box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  border-radius: 4px;
+}
+.contact__form-title {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e8ebf0;
+  margin-bottom: 40px;
+}
+.contact__form .form__message {
+  width: 750px;
+  margin: 0 auto;
+}
+.contact__form .form__message textarea {
+  padding: 20px 50px;
+  border: 1px solid #e8ebf0;
+  outline: none;
+  color: #9e9e9e;
+  resize: none;
+  width: 100%;
+  height: 130px;
+}
+.contact__form .form__message-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin-bottom: 35px;
+}
+.contact__form .form__message-input input {
+  height: 50px;
+  padding: 0 50px;
+  border: 1px solid #e8ebf0;
+  outline: none;
+  color: #9e9e9e;
+}
+.contact__form .contact__btn {
+  text-align: center;
+  margin-top: 25px;
+}
+.contact__form .contact__btn .btn {
+  max-width: 170px;
+}
+
+.map__inner iframe {
+  width: 100%;
+  height: 400px;
 }
 
 @media (max-width: 1200px) {
