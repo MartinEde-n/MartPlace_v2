@@ -1,12 +1,42 @@
 @media(max-width:1200px) {
+	.feedback {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+	.choice__inner{
+		grid-template-columns: 1fr 1fr;
+		gap: 30px;
+		.choice__item{
+			margin: 0 auto;
+		}
+	}
+	.item-sell{
+		padding: 100px 40px;
+	}
 	.header__box {
 		.btn {
 			display: none;
 		}
 	}
+	.weekly__bottom-img{
+		img{
+			width: 100%;
+		}
+	}
 }
 
 @media(max-width:1100px) {
+	.product__inner-box{
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+	
+	}
+	.product__inner-btn{
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		gap: 15px	;
+	}
 	.footer__inner {
 		flex-wrap: wrap;
 	}
@@ -18,6 +48,34 @@
 }
 
 @media(max-width:950px) {
+	.feedback__btn{
+		padding-top: 30px;
+	}
+	.feedback__item{
+		margin-bottom: 30px;
+	}
+	.feedback__inner .feedback__item + .feedback__item{
+		margin-left: 0;
+	}
+	.feedback__inner{
+		flex-wrap: wrap;
+	}
+	.feedback__item{
+		max-width: 100%;
+	}
+	.sell__inner{
+		flex-wrap: wrap;
+	}
+	.sell__inner .sell__item-buy,
+	.sell__inner .sell__item-sell{
+		width: 100%;
+	}
+	.item-sell{
+		padding: 100px 40px;
+	}
+	.weekly__bottom{
+		display: block;
+	}
 	.start {
 		display: none;
 	}
@@ -89,8 +147,41 @@
 		}
 	}
 }
+@media(max-width:850px){
+	.follower__item{
+		max-width: 100%;
+		.product__item-img{
+			justify-content: space-evenly;
+		}
+	}
+}
 
+@media(max-width:850px){
+	.advantages__items{
+		flex-wrap: wrap;
+		padding-top:110px
+	}
+	.advantages__item{
+		max-width: 100%;
+	}
+}
 @media(max-width:800px) {
+	.choice__inner{
+		grid-template-columns: 1fr;
+	}
+	.market__inner-title{
+		font-size: 45px;
+    line-height: 55px;
+	}
+	.market__inner-text{
+		padding-top: 20px;
+	}
+	.market__inner-btn{
+		padding-top: 45px;
+	}
+	.market{
+		padding: 150px 0 170px;
+	}
 	.footer__top {
 		padding-top: 50px;
 	}
@@ -119,14 +210,45 @@
 }
 
 @media(max-width:730px) {
-
+	.product__inner-box{
+		grid-template-columns: 1fr;
+	}
+	.product__item{
+		max-width: 100%;
+	}
+	.innumber__inner{
+		flex-wrap: wrap;
+	}
+	.innumber__inner-item{
+		width:50%;
+		margin-bottom: 50px;
+	}
+	.innumber{
+		padding-bottom: 45px;
+	}
 	.notification__box,
 	.message__box {
 		display: none;
 	}
 }
-
+@media(max-width:650px){
+	.page-title{
+		font-size: 25px;
+	}
+}
 @media(max-width:600px) {
+	.product__inner-btn{
+		grid-template-columns: repeat(2,1fr);
+	}
+	.join-title{
+		font-size: 30px;
+	}
+	.bonus__inner{
+		flex-wrap: wrap;
+	}
+	.bonus__inner-item{
+		width: 100%;
+	}
 	.header-bottom__search{
 		width: 100%;
 	}
@@ -149,6 +271,9 @@
 }
 
 @media(max-width:580px) {
+	.weekly__top-btn{
+		display: none;
+	}
 	.basket__menu {
 		right: -290px;
 	}
@@ -228,8 +353,42 @@
 		display: none;
 	}
 }
-
+@media(max-width:500px){
+	.feedback__item {
+    padding: 50px 10px 50px 15px;
+}
+	.weekly__top-btn .icon-angle-left{
+		padding-left: 15px;
+	}
+	.weekly__top-btn .icon-angle-right{
+		padding-right: 15px;
+	}
+	.weekly {
+		padding-top: 50px;
+	}
+}
 @media(max-width:450px) {
+	.item-sell{
+		padding: 70px 15px;
+	}
+	.item-sell-title {
+    font-size: 30px;
+    line-height: 36.2px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+	.basket-btn{
+		display: none;
+	}
+	.weekly__item{
+		padding: 20px 20px 25px 20px;
+	}
+	.page-title {
+   font-size: 20px;
+}
+	.page-btn{
+		width: 150px;
+	}
 	.basket__box {
 		display: none;
 	}
@@ -248,7 +407,36 @@
 	}
 }
 
+@media(max-width:450px){
+	.container-title {
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 15px;
+	}
+	.icon-comment-o{
+		&::before{
+			display: none;
+		}
+	}
+}
 @media(max-width:400px) {
+	.product__inner-btn{
+		button{
+			padding:7px 5px;
+		}
+	} 
+	.weekly__item-tag  {
+		li{
+			width: 100%;
+			text-align: center;
+			&+li{
+				margin-top: 10px;
+			}
+		} 
+}
+	.page-btn{
+		width: 200px;
+	}
 	.header__btn-menu {
 		min-width: 70px;
 	}
@@ -261,6 +449,15 @@
 }
 
 @media(max-width:370px) {
+	.weekly__item-info{
+		display: block;
+	}
+	.item__info{
+		justify-content: space-between;
+	}
+	.item__info-star{
+		display: none;
+	}
 	.header-top__logo {
 		a {
 			font-size: 25px;
@@ -284,6 +481,9 @@
 }
 
 @media(max-width:350px) {
+	.weekly__top-btn{
+		width: 250px;
+	}
 	.footer__coll-icon {
 		display: grid;
 		grid-template-columns: 20% 20% 20%;
